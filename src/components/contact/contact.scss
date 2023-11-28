@@ -2,7 +2,7 @@
 
 .contact {
   height: 100%;
-  max-width: 850px;
+  max-width: 1366px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -28,8 +28,8 @@
     }
 
     h1 {
-      font-size: 60px;
-      line-height: 49px;
+      font-size: 100px;
+      line-height: 88px;
 
       @include mobile {
         font-size: 36px;

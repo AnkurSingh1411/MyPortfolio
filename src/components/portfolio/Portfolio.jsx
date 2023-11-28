@@ -15,7 +15,7 @@ const items = [
     title: "Zecue",
     img: "/zecue.png",
     description:
-      "Zecue has an admin panel through which admin can see the list of users based on separate level tags. These level tags provided on the basis of scores user gain based on the number of videos user share and number of followers user had in their zecue account. Admin panel have searching, sorting, and filter features within to deal with the large data. As react.js provides single page application with the single HTML file it is quite tough to make it SEO friendly with the user perspective as we can not set metadata of each page separately however I achieved it with the help of JavaScript and make metadata dynamic to make the application rank on top and caught user attention.",
+      "Zecue has an admin panel through which admin can see the list of users based on separate level tags. These level tags provided on the basis of scores user gain based on the number of videos user share and number of followers user had in their zecue account.",
     demoLink: "https://zecue.com/"
   },
   {
