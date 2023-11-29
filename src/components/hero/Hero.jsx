@@ -66,10 +66,15 @@ const Hero = () => {
             Mern Stack Developer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
+            <motion.button  variants={textVariants}>
+            <a href="http://localhost:5173/#Portfolio" >
+      See the Latest Works
+    </a>
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants}>
+<a href="#Contact">Conatact Me</a>
+
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -88,7 +93,7 @@ const Hero = () => {
         Software Developer and Designer
       </motion.div>
       <div className="imageContainer">
-        <motion.img variants = {imgVariant} initial= "initial" whileInView = "animate" src="/hero1.png" alt="" />
+        <motion.img variants = {imgVariant} initial= "initial" whileInView = "animate" src="/my-image.png" alt="" />
       </div>
     </div>
   );

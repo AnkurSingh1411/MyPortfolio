@@ -7,12 +7,12 @@ const Navbar = ()=>{
         <div className="navbar">
             {<Sidebar/>}
             <div className="wrapper">
-                <motion.span initial= {{opacity:0,scale:0.5} }animate= {{opacity:1, scale:1}} transition={{duration : 0.5}}>Ankur Singh</motion.span>
+                <motion.span initial= {{opacity:0,scale:0.5} }animate= {{opacity:1, scale:1}} transition={{duration : 0.5}}></motion.span>
                 <div className="social">
-                    <a href="#"><img src="/facebook.png" alt="" /></a>
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
-                    <a href="#"><img src="/youtube.png" alt="" /></a>
-                    <a href="#"><img src="/dribbble.png" alt="" /></a>
+                    <a href="https://instagram.com/the.ankursingh_?igshid=OGQ5ZDc2ODk2ZA=="><img src="/instagram.png" alt="" /></a>
+                    <a href="https://github.com/AnkurSingh1411"><img src="/github.png" alt="" /></a>
+                    <a href="https://www.youtube.com/channel/UCR-fnDs33F00DD3leK-i6Fw"><img src="/youtube.png" alt="" /></a>
+                    <a href="https://www.linkedin.com/in/ankur-singh-0a63571a1/"><img src="/linkedin.png" alt="" /></a>
                 </div>
 
 

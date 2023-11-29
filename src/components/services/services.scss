@@ -22,8 +22,15 @@
     p {
       font-weight: 200;
       font-size: 20px;
-      color: gray;
+      color: lightgrey;
       text-align: right;
+
+      @include mobile {
+        padding: 25px;
+        align-items: center;
+        padding-top: 80px;
+
+      }
     }
 
     hr {
@@ -33,6 +40,7 @@
 
       @include mobile {
         width: 300px;
+        padding-top: 12px;
       }
     }
   }
@@ -115,14 +123,18 @@
 
       @include mobile {
         border: none;
-        align-items: center;
-        gap: 20px;
+        // align-items: center;
+        gap: 15px;
         padding: 10px;
       }
 
       p {
         @include mobile {
-          display: none;
+        //   display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
         }
       }
 

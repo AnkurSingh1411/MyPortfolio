@@ -2,6 +2,7 @@
 
 .portfolio {
   position: relative;
+  
 
   .progress {
     position: sticky;
@@ -10,10 +11,10 @@
     padding-top: 50px;
     text-align: center;
     color: orange;
-    font-size: 36px;
+    font-size: 25px;
 
     @include mobile {
-      padding-top: calc(100vh - 100px);
+      padding-top: calc(100vh + 160px);
       font-size: 24px;
     }
 
@@ -78,7 +79,7 @@
         }
 
         h2 {
-          font-size: 72px;
+          font-size: 40px;
 
           @include mobile {
             font-size: 36px;
