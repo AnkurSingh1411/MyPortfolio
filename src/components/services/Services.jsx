@@ -50,7 +50,6 @@ const Services = () => {
             <motion.div className="listContainer" variants={variants}>
                 <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
                     <h2>MERN Stack</h2>
-                    <img src="https://www.pexels.com/photo/person-holding-node-text-1261427/" alt="" />
                     <p>
                         MongoDB for database, Express.js server, React frontend, Node.js runtime—unifying to streamline full-stack JavaScript development for web applications.
                     </p>
