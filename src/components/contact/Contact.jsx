@@ -53,7 +53,7 @@ const Contact = () => {
       variants={variants}
       initial="initial"
       whileInView="animate"
-    >formRef
+    >
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s work together</motion.h1>
         <motion.div className="item" variants={variants}>
