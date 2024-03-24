@@ -1,6 +1,7 @@
-import { useRef } from "react"
+import { useRef , useEffect } from "react"
 import "./portfolio.scss"
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+
 const items = [
   {
     id: 1,
@@ -66,6 +67,19 @@ const Single = ({ item }) => {
 
 
   const Portfolio = () => {
+    useEffect(() => {
+      // Check if the device is mobile
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      
+      // If it's a mobile device, add a rel="noreferrer" attribute to all anchor tags
+      if (isMobile) {
+        const links = document.querySelectorAll("a");
+        links.forEach(link => {
+          link.setAttribute("rel", "noreferrer");
+        });
+      }
+    }, []); // Run this effect only once when the component mounts
+  
     const ref = useRef();
   
     const { scrollYProgress } = useScroll({
