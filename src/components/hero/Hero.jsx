@@ -65,23 +65,21 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Mern Stack Developer
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button  variants={textVariants}>
-            <a href="http://localhost:5173/#Portfolio" >
-      See the Latest Works
-    </a>
-            </motion.button>
-            <motion.button variants={textVariants}>
-<a href="#Contact">Contact Me</a>
+          {/* <motion.div variants={textVariants} className="buttons">
+    <motion.button variants={textVariants}>
+        <a href="http://localhost:5173/#Portfolio" className="button-link">See the Latest Works</a>
+    </motion.button>
+    <motion.button variants={textVariants}>
+        <a href="http://localhost:5173/#Contact" className="button-link">Contact Me</a>
+    </motion.button>
+</motion.div> */}
 
-            </motion.button>
-          </motion.div>
-          <motion.img
+          {/* <motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
             alt=""
-          />
+          /> */}
         </motion.div>
       </div>
       <motion.div

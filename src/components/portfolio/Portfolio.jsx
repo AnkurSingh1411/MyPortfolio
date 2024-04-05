@@ -13,11 +13,11 @@ const items = [
   },
   {
     id: 2,
-    title: "Zecue",
-    img: "/zecue.png",
+    title: "Aper",
+    img: "/aper.jpg",
     description:
-      "Zecue has an admin panel through which admin can see the list of users based on separate level tags. These level tags provided on the basis of scores user gain based on the number of videos user share and number of followers user had in their zecue account.",
-    demoLink: "https://zecue.com/"
+      "Designed and developed APER, a storytelling platform for empowering writers in Gangwon province, South Korea - Created a user-friendly interface that allows writers to focus solely on their stories without distractions - Provided tools and support for writers to bring their ideas to life, whether it's a short story, novel, or poetry - Transformed the writing approach for users.",
+    demoLink: "https://aper.cc"
   },
   {
     id: 3,
